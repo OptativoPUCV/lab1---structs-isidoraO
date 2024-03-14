@@ -106,3 +106,18 @@ Thu 14 Mar 2024 09:02:50 PM UTC:
  tests:  0|4
 total_score: 30/70
 50b680b
+Thu 14 Mar 2024 09:06:43 PM UTC: 
+ exercises.c | 14 +++++++++++++-
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘mergeSortedArrays’:
+exercises.c:77:23: error: ‘j’ undeclared (first use in this function)
+   77 |   while (i < size1 && j < size1)
+      |                       ^
+exercises.c:77:23: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:76:21: error: unused variable ‘a’ [-Werror=unused-variable]
+   76 |   int i = 0, k = 0, a = 0;
+      |                     ^
+cc1: all warnings being treated as errors
+Compilation failed
+bdc721b
