@@ -9,19 +9,16 @@ Ejercicio 1: Encuentra el Elemento Mayor
 Descripción: Escribe una función que tome un arreglo de enteros
 y su tamaño, y devuelva el valor más grande del arreglo.
 */
-int findMax(int arr[], int size) 
-{
+int findMax(int arr[], int size) {
   int max = 0;
 
-  for(int i = 0; i < size; i++)
-    {
-      if(i == 0)
-        max = arr[i];
-      else
-        if(arr[i] > max)
-          max = arr[i];
-    }
-  return max; 
+  for (int i = 0; i < size; i++) {
+    if (i == 0)
+      max = arr[i];
+    else if (arr[i] > max)
+      max = arr[i];
+  }
+  return max;
 }
 
 /*
@@ -29,16 +26,14 @@ Ejercicio 2: Invertir un Arreglo
 Descripción: Escribe una función que tome un arreglo y su tamaño, y luego
 invierta el orden de sus elementos.
 */
-void reverseArray(int arr[], int size) 
-{
+void reverseArray(int arr[], int size) {
   int temp = 0;
 
-  for(int i = 0, k = size - 1; i < size/2 && k > size/2 ;i++)
-    {
-      temp = arr[i];
-      arr[i] = arr[k];
-      arr[k] = temp;
-    }
+  for (int i = 0, k = size - 1; i < size / 2 && k > size / 2; i++) {
+    temp = arr[i];
+    arr[i] = arr[k];
+    arr[k] = temp;
+  }
 }
 
 /*
@@ -46,8 +41,9 @@ Ejercicio 3: Filtrar Números Pares
 Descripción: Escribe una función que tome un arreglo de enteros
 y su tamaño, y luego devuelva un nuevo arreglo que contenga solo
 los números pares del arreglo original.
-newsize apunta a una dirección válida que no ha sido inicializada con nigún valor específico. 
-*newsize debe almacenar el tamaño del nuevo arreglo que se retorna.
+newsize apunta a una dirección válida que no ha sido inicializada con nigún
+valor específico. *newsize debe almacenar el tamaño del nuevo arreglo que se
+retorna.
 */
 int *filterEvenNumbers(int arr[], int size, int *newSize) { return NULL; }
 
