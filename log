@@ -100,3 +100,9 @@ exercises.c:76:21: error: unused variable ‘a’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 5e856db
+Thu 14 Mar 2024 09:02:50 PM UTC: 
+ exercises.c | 10 +---------
+ 1 file changed, 1 insertion(+), 9 deletions(-)
+ tests:  0|4
+total_score: 30/70
+50b680b
