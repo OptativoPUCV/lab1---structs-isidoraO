@@ -5,3 +5,14 @@ Thu 14 Mar 2024 08:38:15 PM UTC:
  tests:  0|7
 total_score: 0/70
 f06b1d8
+Thu 14 Mar 2024 08:41:20 PM UTC: 
+ exercises.c | 15 +++++++++++++--
+ 1 file changed, 13 insertions(+), 2 deletions(-)
+In file included from test.c:1:
+exercises.c: In function ‘findMax’:
+exercises.c:25:10: error: ‘max’ may be used uninitialized in this function [-Werror=maybe-uninitialized]
+   25 |   return max;
+      |          ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+dfeffb8
