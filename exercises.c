@@ -118,9 +118,9 @@ int checkSorted(int arr[], int size)
         desc++;
     }
 
-  if(asc == (size / 2))
+  if(asc == (size - 1))
     return 1;
-  else if(desc == (size /2))
+  else if(desc == (size - 1))
     return -1;
   return 0; 
 }
