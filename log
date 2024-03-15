@@ -336,3 +336,8 @@ exercises.c:182:7: error: unused variable ‘num’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 b74d16a
+Fri 15 Mar 2024 09:30:51 PM UTC: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  0|0
+af38ca7

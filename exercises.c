@@ -179,7 +179,6 @@ typedef struct nodo {
 Nodo *crearListaEnlazada(int arr[], int size) 
 {
   Nodo *cabeza = NULL, *temp = NULL ,*actual = NULL;
-  int num;
 
   for(int i = 0; i < size; i++)
     {
