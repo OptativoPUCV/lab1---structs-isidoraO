@@ -123,7 +123,7 @@ int checkSorted(int arr[], int size)
   else if(desc == (size - 1))
     return -1;
   
-  //return -2; 
+  return asc; 
 }
 
 /*
