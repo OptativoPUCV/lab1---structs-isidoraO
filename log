@@ -325,3 +325,14 @@ Fri 15 Mar 2024 09:24:06 PM UTC:
  tests:  0|1
 total_score: 60/70
 2787513
+Fri 15 Mar 2024 09:30:42 PM UTC: 
+ exercises.c | 19 ++++++++++++++++++-
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘crearListaEnlazada’:
+exercises.c:182:7: error: unused variable ‘num’ [-Werror=unused-variable]
+  182 |   int num;
+      |       ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+b74d16a
