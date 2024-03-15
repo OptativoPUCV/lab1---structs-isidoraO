@@ -364,3 +364,14 @@ Fri 15 Mar 2024 09:37:46 PM UTC:
  tests:  0|1
 total_score: 60/70
 1644f28
+Fri 15 Mar 2024 10:01:58 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘crearListaEnlazada’:
+exercises.c:194:10: error: returning ‘int *’ from a function with incompatible return type ‘Nodo *’ {aka ‘struct nodo *’} [-Werror=incompatible-pointer-types]
+  194 |   return arr;
+      |          ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+eb7593c
