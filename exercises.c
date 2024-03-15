@@ -119,11 +119,11 @@ int checkSorted(int arr[], int size)
     }
 
   if(asc == (size - 1))
-    return 1;
-  else if(desc == (size - 1))
-    return -1;
+  {
+    printf("hello");
+  }
   
-  return asc; 
+  return 0; 
 }
 
 /*
