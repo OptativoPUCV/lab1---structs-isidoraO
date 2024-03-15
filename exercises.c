@@ -110,20 +110,17 @@ int checkSorted(int arr[], int size)
 {
   int asc = 0, desc = 0;
 
-  int something = size - 1;
-
-  for(int i = 0; i < size / 2; i++)
+  for(int i = 0; i < (size - 1); i++)
     {
-      if(arr[i] > arr[something] - i)
-        desc++;
-      
-      else
+      if(arr[i] < arr[i + 1])
         asc++;
+      else if(arr[i] > arr[i + 1])
+        desc++;
     }
 
-  if(asc == size / 2)
+  if(asc == size)
     return 1;
-  else if(desc == size / 2)
+  else if(desc == size )
     return -1;
   
   return 0; 
