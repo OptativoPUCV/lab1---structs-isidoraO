@@ -46,7 +46,7 @@ retorna.
 */
 int *filterEvenNumbers(int arr[], int size, int *newSize) 
 { 
-  int *newArr = (int*) malloc(sizeof(int));
+  int *newArr = (int*) malloc(sizeof(int ) * size);
   if(newArr == NULL)exit(EXIT_FAILURE);
   
   (*newSize) = 0;
@@ -56,9 +56,6 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
       if(arr[i] % 2 == 0)
       {
         newArr[(*newSize)] = arr[i];
-        
-        newArr = (int*) realloc(newArr, sizeof(int));
-        if(newArr == NULL)exit(EXIT_FAILURE);
         
         (*newSize)++;
       }
