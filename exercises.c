@@ -121,9 +121,9 @@ int checkSorted(int arr[], int size)
         asc++;
     }
 
-  if(asc == size)
+  if(asc == size / 2)
     return 1;
-  else if(desc == size)
+  else if(desc == size / 2)
     return -1;
   
   return 0; 
