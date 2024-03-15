@@ -178,3 +178,14 @@ Fri 15 Mar 2024 08:07:06 PM UTC:
  tests:  0|5
 total_score: 20/70
 5394718
+Fri 15 Mar 2024 08:07:54 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘filterEvenNumbers’:
+exercises.c:52:33: error: ‘k’ undeclared (first use in this function)
+   52 |   for(int i = 0; i < size; i++, k--)
+      |                                 ^
+exercises.c:52:33: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+644655b
